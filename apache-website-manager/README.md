@@ -15,7 +15,10 @@ The script uses Let's Encrypt to provide SSL certificates on the websites.
 ## Installation ##
 
 1. Download script
-2. Apply permission to execute:
+```bash
+$ wget -O website-manager https://raw.githubusercontent.com/christian-vdz/scripts/main/apache-website-manager/website-manager.sh?token=APKKJC7HVZ2JY2HJ5RHFIGDAHX3FE
+```
+3. Apply permission to execute:
 ```
 $ chmod +x /path/to/website-manager.sh
 ```
@@ -28,7 +31,7 @@ $ sudo cp /path/to/website-manager.sh /usr/bin/website-manager
 
 ```bash
 $ cd /usr/bin
-$ wget -O website-manager https://raw.githubusercontent.com/chrisvdz/website-manager/main/website-manager.sh
+$ wget -O website-manager https://raw.githubusercontent.com/christian-vdz/scripts/main/apache-website-manager/website-manager.sh?token=APKKJC7HVZ2JY2HJ5RHFIGDAHX3FE
 $ chmod +x website-manager
 ```
 
